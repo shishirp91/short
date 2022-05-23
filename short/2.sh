@@ -1,5 +1,4 @@
 #!/bin/bash
   
-$(date) kubernetes-master.learnitguide.net kubernetes-master
-$WIP kubernetes-worker1.learnitguide.net kubernetes-worker1
-EOF
+sudo echo '"echo $MIP" kubernetes-master.learnitguide.net kubernetes-master' >> /etc/hosts11
+sudo echo 'echo "$WIP" kubernetes-worker1.learnitguide.net kubernetes-worker1' >> /etc/hosts11
